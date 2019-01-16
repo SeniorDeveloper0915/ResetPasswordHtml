@@ -6,12 +6,12 @@
 </head>
  
 <body bgcolor="#CCFF66">
-<form action="http://18.235.201.14:8080/api/v1/resetpassword?token=<?php echo $_REQUEST['token']; ?>" align="center" method="put">
+<form action="http://18.235.201.14:8080/api/v1/resetpassword" align="center" method="put">
  
 <h3 style="color:#F00;font-size: 35px;">Reset Password</h3>
 Password:
 <input type="password" name="password" id="password"><br><br>
-
+<input type="text" name="token" value="<?php echo $_REQUEST['token']; ?>" hidden>
 <input type="submit" value="Reset">
 </form>
 </body>
