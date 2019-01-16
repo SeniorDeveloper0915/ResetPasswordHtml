@@ -1,3 +1,6 @@
+<?php
+	echo $_REQUEST['token'];
+?>
 <!doctype html>
 <html>
 <head>
