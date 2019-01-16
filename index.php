@@ -6,7 +6,7 @@
 </head>
  
 <body bgcolor="#CCFF66">
-<form action="http://18.235.201.14:8080/api/v1/resetpassword" align="center" method="post">
+<form action="http://18.235.201.14:8080/api/v1/resetpassword" align="center" method="put">
  
 <h3 style="color:#F00;font-size: 35px;">Reset Password</h3>
 Password:
