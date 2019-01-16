@@ -11,7 +11,9 @@
 <h3 style="color:#F00;font-size: 35px;">Reset Password</h3>
 Password:
 <input type="password" name="password" id="password"><br><br>
-
+ 
+E-mail: 
+<input type="text" name="name" id="name"><br><br>
 <input type="submit" value="Reset">
 </form>
 </body>
